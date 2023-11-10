@@ -1,0 +1,82 @@
+@import "common.scss";
+
+.top-title {
+  margin-bottom: 43px;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 900;
+  color: $white;
+}
+
+.top-cards {
+  margin-bottom: 32px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.top-card {
+  min-height: 290px;
+  max-width: 157px;
+  padding: 9px 9px 0 9px;
+  border-radius: 7.5px;
+  background-color: $white;
+
+  &__img {
+    margin-bottom: 11px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__price {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: $mineShaft;
+  }
+
+  &__plus {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    color: $mineShaft;
+    p {
+      font-size: 12px;
+      margin-left: 5px;
+    }
+  }
+  &__title {
+    font-size: 13px;
+  }
+
+  &__span {
+    display: none;
+  }
+}
+
+.top-card__old {
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration-line: line-through;
+  color: $gray;
+}
+
+.top-card__sale {
+  padding: 0 7px;
+  font-size: 10px;
+  color: $white;
+  border-radius: 7px 2px;
+  background: var(--fill-attention, $red);
+}
+
+.top-card__promo {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  color: $red;
+}
+
+.top-card__btn {
+  font-size: 13px;
+  background-color: $supernova;
+}

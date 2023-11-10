@@ -1,0 +1,75 @@
+.btn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  color: #333333;
+  font-weight: 700;
+  text-align: center;
+  transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out, outline-offset 0.3s ease-in-out;
+}
+
+.show-btn {
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 13px;
+  border: none;
+}
+
+.coffeemachine {
+  margin-bottom: 70px;
+}
+.coffeemachine__container {
+  padding: 0 46px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 17px;
+  -moz-column-gap: 17px;
+       column-gap: 17px;
+}
+.coffeemachine__cards {
+  min-height: 284px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: #776868;
+  transition: background-color 0.3s ease-in-out;
+}
+.coffeemachine__cards:hover {
+  background-color: #888181;
+}
+.coffeemachine__cards:focus {
+  background-color: #888181;
+}
+.coffeemachine__cards:active {
+  background-color: #888181;
+}
+.coffeemachine__content h3 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+  color: #ffffff;
+}
+
+.first {
+  background-image: url("../img/auto.webp");
+}
+
+.second {
+  background-image: url("../img/capsul.webp");
+}
+
+.third {
+  background-image: url("../img/rozhok.webp");
+}
+
+.fourth {
+  background-image: url("../img/kapel.webp");
+}/*# sourceMappingURL=categories.css.map */

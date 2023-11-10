@@ -1,0 +1,64 @@
+@import "common.scss";
+
+.coffeemachine {
+  margin-bottom: 70px;
+
+  &__container {
+    padding: 0 46px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 17px;
+    column-gap: 17px;
+  }
+
+  &__cards {
+    min-height: 284px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: $spicyPink;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  &__cards:hover {
+    background-color: $hurricane;
+  }
+
+  &__cards:focus {
+    background-color: $hurricane;
+  }
+
+  &__cards:active {
+    background-color: $hurricane;
+  }
+
+  &__content {
+    h3 {
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 110%;
+      color: $white;
+    }
+  }
+}
+
+.first {
+  background-image: url("../img/auto.webp");
+}
+
+.second {
+  background-image: url("../img/capsul.webp");
+}
+
+.third {
+  background-image: url("../img/rozhok.webp");
+}
+
+.fourth {
+  background-image: url("../img/kapel.webp");
+}

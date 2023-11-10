@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="preload"
+      href="fonts/OpenSansRegular.woff"
+      as="font"
+      type="font/woff"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="fonts/OpenSansRegular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="fonts/OpenSansBold.woff"
+      as="font"
+      type="font/woff"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="fonts/OpenSansBold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="fonts/PlayfairDisplay-Black.woff"
+      as="font"
+      type="font/woff"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="fonts/PlayfairDisplay-Black.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <title>Кофе и Кофемашины</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="css/main.css" />
+    <link type="image/x-icon" href="./img/favicon.svg" rel="shortcut icon" />
+    <link type="Image/x-icon" href="./img/favicon.svg" rel="icon" />
+  </head>
+
+  <body>
+    <main>
+      <h1 class="main-title">Кофемашины и кофе</h1>
+      <section class="hero">
+        <div class="hero__container container">
+          <div class="hero__wrapper">
+            <h2 class="hero__title">Сезон согревающих напитков</h2>
+            <p class="hero__descr">
+              Подборка кофемашин и&nbsp;подходящего кофе
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="coffeemachine">
+        <div class="coffeemachine__container container">
+          <div class="coffeemachine__cards first">
+            <div class="coffeemachine__item">
+              <div class="coffeemachine__content">
+                <h3>Автоматические кофемашины</h3>
+              </div>
+            </div>
+          </div>
+          <div class="coffeemachine__cards second">
+            <div class="coffeemachine__item">
+              <div class="coffeemachine__content">
+                <h3>Капсульные кофемашины</h3>
+              </div>
+            </div>
+          </div>
+          <div class="coffeemachine__cards third">
+            <div class="coffeemachine__item">
+              <div class="coffeemachine__content">
+                <h3>Рожковые кофемашины</h3>
+              </div>
+            </div>
+          </div>
+          <div class="coffeemachine__cards fourth">
+            <div class="coffeemachine__item">
+              <div class="coffeemachine__content">
+                <h3>Капельные кофемашины</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="coffee">
+        <div class="coffee__container container similar swiper">
+          <div class="swiper-wrapper">
+            <div class="coffee__link swiper-slide">
+              <input id="" name="tab-btn" type="radio" value="" />
+              <label class="coffee__item" for="">Молотый кофе</label>
+            </div>
+            <div class="coffee__link swiper-slide">
+              <input id="" name="tab-btn" type="radio" value="" />
+              <label class="coffee__item" for="">Кофе в&nbsp;зёрнах</label>
+            </div>
+            <div class="coffee__link swiper-slide">
+              <input id="" name="tab-btn" type="radio" value="" />
+              <label class="coffee__item" for="">Кофе в&nbsp;капсулах</label>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="top">
+        <div class="top__container container">
+          <h2 class="top-title">Топ-товары</h2>
+          <div class="topswiper swiper">
+            <div class="top-cards swiper-wrapper">
+              <div class="top-card swiper-slide">
+                <span class="top-card__span"
+                  ><svg
+                    width="50"
+                    height="50"
+                    viewBox="0 0 24 22"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g style="mix-blend-mode: luminosity">
+                      <path
+                        d="M11.8632 21.3384L12 21.4279L12.1368 21.3385L12.6467 21.0051L12.6469 21.005C12.8659 20.8617 15.5029 19.1198 18.0879 16.6577C19.3804 15.4268 20.6666 14.0096 21.6311 12.5161C22.5941 11.0252 23.25 9.43755 23.25 7.8709C23.25 3.45969 20.099 1.125 16.9761 1.125C15.075 1.125 13.2947 1.97089 11.9991 3.42681C10.7003 1.96866 8.92242 1.125 7.02416 1.125C3.90127 1.125 0.75 3.45943 0.75 7.8709C0.75 9.43755 1.40594 11.0252 2.36886 12.5161C3.33343 14.0096 4.61962 15.4268 5.91208 16.6577C8.49718 19.1198 11.1343 20.8617 11.3534 21.0051L11.4903 20.7958L11.3535 21.0051L11.8632 21.3384Z"
+                        stroke="white"
+                        stroke-opacity="0.5"
+                        stroke-width="0.5"
+                      />
+                      <path
+                        opacity="0.3"
+                        d="M17.2259 15.7526C14.8283 18.036 12.376 19.6857 12.0001 19.9342C11.6249 19.6863 9.17214 18.0364 6.77416 15.7526C5.52144 14.5595 4.31057 13.2185 3.41889 11.8379C2.52058 10.4471 2 9.09898 2 7.8709C2 4.19282 4.54779 2.375 7.02416 2.375C8.61572 2.375 10.1327 3.11577 11.2268 4.44648L11.9999 5.38659L12.7722 4.4459C13.8619 3.11859 15.3812 2.375 16.9761 2.375C19.4524 2.375 22 4.19299 22 7.8709C22 9.09898 21.4794 10.4471 20.5811 11.8379C19.6894 13.2185 18.4786 14.5595 17.2259 15.7526Z"
+                        stroke="#21201F"
+                        stroke-width="2"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12.0001 18.7232C11.0873 18.084 9.25773 16.737 7.46382 15.0284C6.24289 13.8656 5.09229 12.5857 4.25891 11.2954C3.41229 9.98456 3 8.82812 3 7.8709C3 4.77953 5.06501 3.375 7.02416 3.375C8.29362 3.375 9.53509 3.96351 10.4544 5.0816L12.0005 6.96183L13.5451 5.08043C14.4596 3.96645 15.7031 3.375 16.9761 3.375C18.9351 3.375 21 4.77962 21 7.8709C21 8.82812 20.5877 9.98456 19.7411 11.2954C18.9077 12.5857 17.7571 13.8656 16.5362 15.0284C14.7424 16.7368 12.913 18.0839 12.0001 18.7232Z"
+                        fill="white"
+                      />
+                    </g>
+                  </svg>
+                </span>
+                <div class="top-card__img flex">
+                  <img src="./img/machine.webp" alt="Кофемашина" />
+                </div>
+                <div class="top-card__content">
+                  <div class="top-card__list">
+                    <span class="top-card__price">117&nbsp;890&nbsp;₽</span>
+                    <div class="top-card__discount flex">
+                      <span class="top-card__old">120&nbsp;890&nbsp;₽</span>
+                      <span class="top-card__sale">&minus;8%</span>
+                    </div>
+                    <a class="top-card__promo">Есть промокод</a>
+                    <div class="top-card__plus flex">
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M9.35597 0.946718C8.8347 0.83197 8.29307 0.771484 7.73733 0.771484C3.59787 0.771484 0.242188 4.12717 0.242188 8.26662C0.242188 12.4061 3.59787 15.7618 7.73733 15.7618C11.8768 15.7618 15.2325 12.4061 15.2325 8.26662C15.2325 8.25036 15.2324 8.2341 15.2323 8.21786H10.2126L9.2226 12.9224H6.83599L7.82594 8.21786H3.09375L3.57334 5.93502H8.3063L9.35597 0.946718ZM14.8627 5.93502H10.6929L11.5593 1.81781C13.106 2.73643 14.2939 4.19565 14.8627 5.93502Z"
+                          fill="url(#paint0_linear_652_859)"
+                        />
+                        <defs>
+                          <linearGradient
+                            id="paint0_linear_652_859"
+                            x1="0.578293"
+                            y1="2.5379"
+                            x2="16.5698"
+                            y2="5.84103"
+                            gradientUnits="userSpaceOnUse"
+                          >
+                            <stop offset="0.0625" stop-color="#48CCE0" />
+                            <stop offset="0.380208" stop-color="#505ADD" />
+                            <stop offset="0.703125" stop-color="#BE40C0" />
+                            <stop offset="1" stop-color="#FBA82B" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                      <p>25&nbsp;баллов на&nbsp;Плюс</p>
+                    </div>
+                    <h3 class="top-card__title">
+                      Беспроводные наушники JBL Ultra Blu...
+                    </h3>
+                    <button class="top-card__btn btn">В&nbsp;корзину</button>
+                  </div>
+                </div>
+              </div>
+              <div class="top-card swiper-slide">
+                <span class="top-card__span"
+                  ><svg
+                    width="50"
+                    height="50"
+                    viewBox="0 0 24 22"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g style="mix-blend-mode: luminosity">
+                      <path
+                        d="M11.8632 21.3384L12 21.4279L12.1368 21.3385L12.6467 21.0051L12.6469 21.005C12.8659 20.8617 15.5029 19.1198 18.0879 16.6577C19.3804 15.4268 20.6666 14.0096 21.6311 12.5161C22.5941 11.0252 23.25 9.43755 23.25 7.8709C23.25 3.45969 20.099 1.125 16.9761 1.125C15.075 1.125 13.2947 1.97089 11.9991 3.42681C10.7003 1.96866 8.92242 1.125 7.02416 1.125C3.90127 1.125 0.75 3.45943 0.75 7.8709C0.75 9.43755 1.40594 11.0252 2.36886 12.5161C3.33343 14.0096 4.61962 15.4268 5.91208 16.6577C8.49718 19.1198 11.1343 20.8617 11.3534 21.0051L11.4903 20.7958L11.3535 21.0051L11.8632 21.3384Z"
+                        stroke="white"
+                        stroke-opacity="0.5"
+                        stroke-width="0.5"
+                      />
+                      <path
+                        opacity="0.3"
+                        d="M17.2259 15.7526C14.8283 18.036 12.376 19.6857 12.0001 19.9342C11.6249 19.6863 9.17214 18.0364 6.77416 15.7526C5.52144 14.5595 4.31057 13.2185 3.41889 11.8379C2.52058 10.4471 2 9.09898 2 7.8709C2 4.19282 4.54779 2.375 7.02416 2.375C8.61572 2.375 10.1327 3.11577 11.2268 4.44648L11.9999 5.38659L12.7722 4.4459C13.8619 3.11859 15.3812 2.375 16.9761 2.375C19.4524 2.375 22 4.19299 22 7.8709C22 9.09898 21.4794 10.4471 20.5811 11.8379C19.6894 13.2185 18.4786 14.5595 17.2259 15.7526Z"
+                        stroke="#21201F"
+                        stroke-width="2"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12.0001 18.7232C11.0873 18.084 9.25773 16.737 7.46382 15.0284C6.24289 13.8656 5.09229 12.5857 4.25891 11.2954C3.41229 9.98456 3 8.82812 3 7.8709C3 4.77953 5.06501 3.375 7.02416 3.375C8.29362 3.375 9.53509 3.96351 10.4544 5.0816L12.0005 6.96183L13.5451 5.08043C14.4596 3.96645 15.7031 3.375 16.9761 3.375C18.9351 3.375 21 4.77962 21 7.8709C21 8.82812 20.5877 9.98456 19.7411 11.2954C18.9077 12.5857 17.7571 13.8656 16.5362 15.0284C14.7424 16.7368 12.913 18.0839 12.0001 18.7232Z"
+                        fill="white"
+                      />
+                    </g>
+                  </svg>
+                </span>
+                <div class="top-card__img flex">
+                  <img src="./img/machine.webp" alt="Кофемашина" />
+                </div>
+                <div class="top-card__content">
+                  <div class="top-card__list">
+                    <span class="top-card__price">117&nbsp;890&nbsp;₽</span>
+                    <div class="top-card__discount flex">
+                      <span class="top-card__old">120&nbsp;890&nbsp;₽</span>
+                      <span class="top-card__sale">&minus;8%</span>
+                    </div>
+                    <a class="top-card__promo">Есть промокод</a>
+                    <div class="top-card__plus flex">
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M9.35597 0.946718C8.8347 0.83197 8.29307 0.771484 7.73733 0.771484C3.59787 0.771484 0.242188 4.12717 0.242188 8.26662C0.242188 12.4061 3.59787 15.7618 7.73733 15.7618C11.8768 15.7618 15.2325 12.4061 15.2325 8.26662C15.2325 8.25036 15.2324 8.2341 15.2323 8.21786H10.2126L9.2226 12.9224H6.83599L7.82594 8.21786H3.09375L3.57334 5.93502H8.3063L9.35597 0.946718ZM14.8627 5.93502H10.6929L11.5593 1.81781C13.106 2.73643 14.2939 4.19565 14.8627 5.93502Z"
+                          fill="url(#paint0_linear_652_859)"
+                        />
+                        <defs>
+                          <linearGradient
+                            x1="0.578293"
+                            y1="2.5379"
+                            x2="16.5698"
+                            y2="5.84103"
+                            gradientUnits="userSpaceOnUse"
+                          >
+                            <stop offset="0.0625" stop-color="#48CCE0" />
+                            <stop offset="0.380208" stop-color="#505ADD" />
+                            <stop offset="0.703125" stop-color="#BE40C0" />
+                            <stop offset="1" stop-color="#FBA82B" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                      <p>25&nbsp;баллов на&nbsp;Плюс</p>
+                    </div>
+                    <h3 class="top-card__title">
+                      Беспроводные наушники JBL Ultra Blu...
+                    </h3>
+                    <button class="top-card__btn btn">В&nbsp;корзину</button>
+                  </div>
+                </div>
+              </div>
+              <div class="top-card swiper-slide">
+                <span class="top-card__span"
+                  ><svg
+                    width="50"
+                    height="50"
+                    viewBox="0 0 24 22"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g style="mix-blend-mode: luminosity">
+                      <path
+                        d="M11.8632 21.3384L12 21.4279L12.1368 21.3385L12.6467 21.0051L12.6469 21.005C12.8659 20.8617 15.5029 19.1198 18.0879 16.6577C19.3804 15.4268 20.6666 14.0096 21.6311 12.5161C22.5941 11.0252 23.25 9.43755 23.25 7.8709C23.25 3.45969 20.099 1.125 16.9761 1.125C15.075 1.125 13.2947 1.97089 11.9991 3.42681C10.7003 1.96866 8.92242 1.125 7.02416 1.125C3.90127 1.125 0.75 3.45943 0.75 7.8709C0.75 9.43755 1.40594 11.0252 2.36886 12.5161C3.33343 14.0096 4.61962 15.4268 5.91208 16.6577C8.49718 19.1198 11.1343 20.8617 11.3534 21.0051L11.4903 20.7958L11.3535 21.0051L11.8632 21.3384Z"
+                        stroke="white"
+                        stroke-opacity="0.5"
+                        stroke-width="0.5"
+                      />
+                      <path
+                        opacity="0.3"
+                        d="M17.2259 15.7526C14.8283 18.036 12.376 19.6857 12.0001 19.9342C11.6249 19.6863 9.17214 18.0364 6.77416 15.7526C5.52144 14.5595 4.31057 13.2185 3.41889 11.8379C2.52058 10.4471 2 9.09898 2 7.8709C2 4.19282 4.54779 2.375 7.02416 2.375C8.61572 2.375 10.1327 3.11577 11.2268 4.44648L11.9999 5.38659L12.7722 4.4459C13.8619 3.11859 15.3812 2.375 16.9761 2.375C19.4524 2.375 22 4.19299 22 7.8709C22 9.09898 21.4794 10.4471 20.5811 11.8379C19.6894 13.2185 18.4786 14.5595 17.2259 15.7526Z"
+                        stroke="#21201F"
+                        stroke-width="2"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12.0001 18.7232C11.0873 18.084 9.25773 16.737 7.46382 15.0284C6.24289 13.8656 5.09229 12.5857 4.25891 11.2954C3.41229 9.98456 3 8.82812 3 7.8709C3 4.77953 5.06501 3.375 7.02416 3.375C8.29362 3.375 9.53509 3.96351 10.4544 5.0816L12.0005 6.96183L13.5451 5.08043C14.4596 3.96645 15.7031 3.375 16.9761 3.375C18.9351 3.375 21 4.77962 21 7.8709C21 8.82812 20.5877 9.98456 19.7411 11.2954C18.9077 12.5857 17.7571 13.8656 16.5362 15.0284C14.7424 16.7368 12.913 18.0839 12.0001 18.7232Z"
+                        fill="white"
+                      />
+                    </g>
+                  </svg>
+                </span>
+                <div class="top-card__img flex">
+                  <img src="./img/machine.webp" alt="Кофемашина" />
+                </div>
+                <div class="top-card__content">
+                  <div class="top-card__list">
+                    <span class="top-card__price">117&nbsp;890&nbsp;₽</span>
+                    <div class="top-card__discount flex">
+                      <span class="top-card__old">120&nbsp;890&nbsp;₽</span>
+                      <span class="top-card__sale">&minus;8%</span>
+                    </div>
+                    <a class="top-card__promo">Есть промокод</a>
+                    <div class="top-card__plus flex">
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M9.35597 0.946718C8.8347 0.83197 8.29307 0.771484 7.73733 0.771484C3.59787 0.771484 0.242188 4.12717 0.242188 8.26662C0.242188 12.4061 3.59787 15.7618 7.73733 15.7618C11.8768 15.7618 15.2325 12.4061 15.2325 8.26662C15.2325 8.25036 15.2324 8.2341 15.2323 8.21786H10.2126L9.2226 12.9224H6.83599L7.82594 8.21786H3.09375L3.57334 5.93502H8.3063L9.35597 0.946718ZM14.8627 5.93502H10.6929L11.5593 1.81781C13.106 2.73643 14.2939 4.19565 14.8627 5.93502Z"
+                          fill="url(#paint0_linear_652_859)"
+                        />
+                        <defs>
+                          <linearGradient
+                            x1="0.578293"
+                            y1="2.5379"
+                            x2="16.5698"
+                            y2="5.84103"
+                            gradientUnits="userSpaceOnUse"
+                          >
+                            <stop offset="0.0625" stop-color="#48CCE0" />
+                            <stop offset="0.380208" stop-color="#505ADD" />
+                            <stop offset="0.703125" stop-color="#BE40C0" />
+                            <stop offset="1" stop-color="#FBA82B" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                      <p>25&nbsp;баллов на&nbsp;Плюс</p>
+                    </div>
+                    <h3 class="top-card__title">
+                      Беспроводные наушники JBL Ultra Blu...
+                    </h3>
+                    <button class="top-card__btn btn">В&nbsp;корзину</button>
+                  </div>
+                </div>
+              </div>
+              <div class="top-card swiper-slide">
+                <span class="top-card__span"
+                  ><svg
+                    width="50"
+                    height="50"
+                    viewBox="0 0 24 22"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g style="mix-blend-mode: luminosity">
+                      <path
+                        d="M11.8632 21.3384L12 21.4279L12.1368 21.3385L12.6467 21.0051L12.6469 21.005C12.8659 20.8617 15.5029 19.1198 18.0879 16.6577C19.3804 15.4268 20.6666 14.0096 21.6311 12.5161C22.5941 11.0252 23.25 9.43755 23.25 7.8709C23.25 3.45969 20.099 1.125 16.9761 1.125C15.075 1.125 13.2947 1.97089 11.9991 3.42681C10.7003 1.96866 8.92242 1.125 7.02416 1.125C3.90127 1.125 0.75 3.45943 0.75 7.8709C0.75 9.43755 1.40594 11.0252 2.36886 12.5161C3.33343 14.0096 4.61962 15.4268 5.91208 16.6577C8.49718 19.1198 11.1343 20.8617 11.3534 21.0051L11.4903 20.7958L11.3535 21.0051L11.8632 21.3384Z"
+                        stroke="white"
+                        stroke-opacity="0.5"
+                        stroke-width="0.5"
+                      />
+                      <path
+                        opacity="0.3"
+                        d="M17.2259 15.7526C14.8283 18.036 12.376 19.6857 12.0001 19.9342C11.6249 19.6863 9.17214 18.0364 6.77416 15.7526C5.52144 14.5595 4.31057 13.2185 3.41889 11.8379C2.52058 10.4471 2 9.09898 2 7.8709C2 4.19282 4.54779 2.375 7.02416 2.375C8.61572 2.375 10.1327 3.11577 11.2268 4.44648L11.9999 5.38659L12.7722 4.4459C13.8619 3.11859 15.3812 2.375 16.9761 2.375C19.4524 2.375 22 4.19299 22 7.8709C22 9.09898 21.4794 10.4471 20.5811 11.8379C19.6894 13.2185 18.4786 14.5595 17.2259 15.7526Z"
+                        stroke="#21201F"
+                        stroke-width="2"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12.0001 18.7232C11.0873 18.084 9.25773 16.737 7.46382 15.0284C6.24289 13.8656 5.09229 12.5857 4.25891 11.2954C3.41229 9.98456 3 8.82812 3 7.8709C3 4.77953 5.06501 3.375 7.02416 3.375C8.29362 3.375 9.53509 3.96351 10.4544 5.0816L12.0005 6.96183L13.5451 5.08043C14.4596 3.96645 15.7031 3.375 16.9761 3.375C18.9351 3.375 21 4.77962 21 7.8709C21 8.82812 20.5877 9.98456 19.7411 11.2954C18.9077 12.5857 17.7571 13.8656 16.5362 15.0284C14.7424 16.7368 12.913 18.0839 12.0001 18.7232Z"
+                        fill="white"
+                      />
+                    </g>
+                  </svg>
+                </span>
+                <div class="top-card__img flex">
+                  <img src="./img/machine.webp" alt="Кофемашина" />
+                </div>
+                <div class="top-card__content">
+                  <div class="top-card__list">
+                    <span class="top-card__price">117&nbsp;890&nbsp;₽</span>
+                    <div class="top-card__discount flex">
+                      <span class="top-card__old">120&nbsp;890&nbsp;₽</span>
+                      <span class="top-card__sale">&minus;8%</span>
+                    </div>
+                    <a class="top-card__promo">Есть промокод</a>
+                    <div class="top-card__plus flex">
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M9.35597 0.946718C8.8347 0.83197 8.29307 0.771484 7.73733 0.771484C3.59787 0.771484 0.242188 4.12717 0.242188 8.26662C0.242188 12.4061 3.59787 15.7618 7.73733 15.7618C11.8768 15.7618 15.2325 12.4061 15.2325 8.26662C15.2325 8.25036 15.2324 8.2341 15.2323 8.21786H10.2126L9.2226 12.9224H6.83599L7.82594 8.21786H3.09375L3.57334 5.93502H8.3063L9.35597 0.946718ZM14.8627 5.93502H10.6929L11.5593 1.81781C13.106 2.73643 14.2939 4.19565 14.8627 5.93502Z"
+                          fill="url(#paint0_linear_652_859)"
+                        />
+                        <defs>
+                          <linearGradient
+                            x1="0.578293"
+                            y1="2.5379"
+                            x2="16.5698"
+                            y2="5.84103"
+                            gradientUnits="userSpaceOnUse"
+                          >
+                            <stop offset="0.0625" stop-color="#48CCE0" />
+                            <stop offset="0.380208" stop-color="#505ADD" />
+                            <stop offset="0.703125" stop-color="#BE40C0" />
+                            <stop offset="1" stop-color="#FBA82B" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                      <p>25&nbsp;баллов на&nbsp;Плюс</p>
+                    </div>
+                    <h3 class="top-card__title">
+                      Беспроводные наушники JBL Ultra Blu...
+                    </h3>
+                    <button class="top-card__btn btn">В&nbsp;корзину</button>
+                  </div>
+                </div>
+              </div>
+              <div class="top-card swiper-slide">
+                <span class="top-card__span"
+                  ><svg
+                    width="50"
+                    height="50"
+                    viewBox="0 0 24 22"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g style="mix-blend-mode: luminosity">
+                      <path
+                        d="M11.8632 21.3384L12 21.4279L12.1368 21.3385L12.6467 21.0051L12.6469 21.005C12.8659 20.8617 15.5029 19.1198 18.0879 16.6577C19.3804 15.4268 20.6666 14.0096 21.6311 12.5161C22.5941 11.0252 23.25 9.43755 23.25 7.8709C23.25 3.45969 20.099 1.125 16.9761 1.125C15.075 1.125 13.2947 1.97089 11.9991 3.42681C10.7003 1.96866 8.92242 1.125 7.02416 1.125C3.90127 1.125 0.75 3.45943 0.75 7.8709C0.75 9.43755 1.40594 11.0252 2.36886 12.5161C3.33343 14.0096 4.61962 15.4268 5.91208 16.6577C8.49718 19.1198 11.1343 20.8617 11.3534 21.0051L11.4903 20.7958L11.3535 21.0051L11.8632 21.3384Z"
+                        stroke="white"
+                        stroke-opacity="0.5"
+                        stroke-width="0.5"
+                      />
+                      <path
+                        opacity="0.3"
+                        d="M17.2259 15.7526C14.8283 18.036 12.376 19.6857 12.0001 19.9342C11.6249 19.6863 9.17214 18.0364 6.77416 15.7526C5.52144 14.5595 4.31057 13.2185 3.41889 11.8379C2.52058 10.4471 2 9.09898 2 7.8709C2 4.19282 4.54779 2.375 7.02416 2.375C8.61572 2.375 10.1327 3.11577 11.2268 4.44648L11.9999 5.38659L12.7722 4.4459C13.8619 3.11859 15.3812 2.375 16.9761 2.375C19.4524 2.375 22 4.19299 22 7.8709C22 9.09898 21.4794 10.4471 20.5811 11.8379C19.6894 13.2185 18.4786 14.5595 17.2259 15.7526Z"
+                        stroke="#21201F"
+                        stroke-width="2"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12.0001 18.7232C11.0873 18.084 9.25773 16.737 7.46382 15.0284C6.24289 13.8656 5.09229 12.5857 4.25891 11.2954C3.41229 9.98456 3 8.82812 3 7.8709C3 4.77953 5.06501 3.375 7.02416 3.375C8.29362 3.375 9.53509 3.96351 10.4544 5.0816L12.0005 6.96183L13.5451 5.08043C14.4596 3.96645 15.7031 3.375 16.9761 3.375C18.9351 3.375 21 4.77962 21 7.8709C21 8.82812 20.5877 9.98456 19.7411 11.2954C18.9077 12.5857 17.7571 13.8656 16.5362 15.0284C14.7424 16.7368 12.913 18.0839 12.0001 18.7232Z"
+                        fill="white"
+                      />
+                    </g>
+                  </svg>
+                </span>
+                <div class="top-card__img flex">
+                  <img src="./img/machine.webp" alt="Кофемашина" />
+                </div>
+                <div class="top-card__content">
+                  <div class="top-card__list">
+                    <span class="top-card__price">117&nbsp;890&nbsp;₽</span>
+                    <div class="top-card__discount flex">
+                      <span class="top-card__old">120&nbsp;890&nbsp;₽</span>
+                      <span class="top-card__sale">&minus;8%</span>
+                    </div>
+                    <a class="top-card__promo">Есть промокод</a>
+                    <div class="top-card__plus flex">
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M9.35597 0.946718C8.8347 0.83197 8.29307 0.771484 7.73733 0.771484C3.59787 0.771484 0.242188 4.12717 0.242188 8.26662C0.242188 12.4061 3.59787 15.7618 7.73733 15.7618C11.8768 15.7618 15.2325 12.4061 15.2325 8.26662C15.2325 8.25036 15.2324 8.2341 15.2323 8.21786H10.2126L9.2226 12.9224H6.83599L7.82594 8.21786H3.09375L3.57334 5.93502H8.3063L9.35597 0.946718ZM14.8627 5.93502H10.6929L11.5593 1.81781C13.106 2.73643 14.2939 4.19565 14.8627 5.93502Z"
+                          fill="url(#paint0_linear_652_859)"
+                        />
+                        <defs>
+                          <linearGradient
+                            x1="0.578293"
+                            y1="2.5379"
+                            x2="16.5698"
+                            y2="5.84103"
+                            gradientUnits="userSpaceOnUse"
+                          >
+                            <stop offset="0.0625" stop-color="#48CCE0" />
+                            <stop offset="0.380208" stop-color="#505ADD" />
+                            <stop offset="0.703125" stop-color="#BE40C0" />
+                            <stop offset="1" stop-color="#FBA82B" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                      <p>25&nbsp;баллов на&nbsp;Плюс</p>
+                    </div>
+                    <h3 class="top-card__title">
+                      Беспроводные наушники JBL Ultra Blu...
+                    </h3>
+                    <button class="top-card__btn btn">В&nbsp;корзину</button>
+                  </div>
+                </div>
+              </div>
+              <div class="top-card swiper-slide">
+                <span class="top-card__span"
+                  ><svg
+                    width="50"
+                    height="50"
+                    viewBox="0 0 24 22"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g style="mix-blend-mode: luminosity">
+                      <path
+                        d="M11.8632 21.3384L12 21.4279L12.1368 21.3385L12.6467 21.0051L12.6469 21.005C12.8659 20.8617 15.5029 19.1198 18.0879 16.6577C19.3804 15.4268 20.6666 14.0096 21.6311 12.5161C22.5941 11.0252 23.25 9.43755 23.25 7.8709C23.25 3.45969 20.099 1.125 16.9761 1.125C15.075 1.125 13.2947 1.97089 11.9991 3.42681C10.7003 1.96866 8.92242 1.125 7.02416 1.125C3.90127 1.125 0.75 3.45943 0.75 7.8709C0.75 9.43755 1.40594 11.0252 2.36886 12.5161C3.33343 14.0096 4.61962 15.4268 5.91208 16.6577C8.49718 19.1198 11.1343 20.8617 11.3534 21.0051L11.4903 20.7958L11.3535 21.0051L11.8632 21.3384Z"
+                        stroke="white"
+                        stroke-opacity="0.5"
+                        stroke-width="0.5"
+                      />
+                      <path
+                        opacity="0.3"
+                        d="M17.2259 15.7526C14.8283 18.036 12.376 19.6857 12.0001 19.9342C11.6249 19.6863 9.17214 18.0364 6.77416 15.7526C5.52144 14.5595 4.31057 13.2185 3.41889 11.8379C2.52058 10.4471 2 9.09898 2 7.8709C2 4.19282 4.54779 2.375 7.02416 2.375C8.61572 2.375 10.1327 3.11577 11.2268 4.44648L11.9999 5.38659L12.7722 4.4459C13.8619 3.11859 15.3812 2.375 16.9761 2.375C19.4524 2.375 22 4.19299 22 7.8709C22 9.09898 21.4794 10.4471 20.5811 11.8379C19.6894 13.2185 18.4786 14.5595 17.2259 15.7526Z"
+                        stroke="#21201F"
+                        stroke-width="2"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12.0001 18.7232C11.0873 18.084 9.25773 16.737 7.46382 15.0284C6.24289 13.8656 5.09229 12.5857 4.25891 11.2954C3.41229 9.98456 3 8.82812 3 7.8709C3 4.77953 5.06501 3.375 7.02416 3.375C8.29362 3.375 9.53509 3.96351 10.4544 5.0816L12.0005 6.96183L13.5451 5.08043C14.4596 3.96645 15.7031 3.375 16.9761 3.375C18.9351 3.375 21 4.77962 21 7.8709C21 8.82812 20.5877 9.98456 19.7411 11.2954C18.9077 12.5857 17.7571 13.8656 16.5362 15.0284C14.7424 16.7368 12.913 18.0839 12.0001 18.7232Z"
+                        fill="white"
+                      />
+                    </g>
+                  </svg>
+                </span>
+                <div class="top-card__img flex">
+                  <img src="./img/machine.webp" alt="Кофемашина" />
+                </div>
+                <div class="top-card__content">
+                  <div class="top-card__list">
+                    <span class="top-card__price">117&nbsp;890&nbsp;₽</span>
+                    <div class="top-card__discount flex">
+                      <span class="top-card__old">120&nbsp;890&nbsp;₽</span>
+                      <span class="top-card__sale">&minus;8%</span>
+                    </div>
+                    <a class="top-card__promo">Есть промокод</a>
+                    <div class="top-card__plus flex">
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M9.35597 0.946718C8.8347 0.83197 8.29307 0.771484 7.73733 0.771484C3.59787 0.771484 0.242188 4.12717 0.242188 8.26662C0.242188 12.4061 3.59787 15.7618 7.73733 15.7618C11.8768 15.7618 15.2325 12.4061 15.2325 8.26662C15.2325 8.25036 15.2324 8.2341 15.2323 8.21786H10.2126L9.2226 12.9224H6.83599L7.82594 8.21786H3.09375L3.57334 5.93502H8.3063L9.35597 0.946718ZM14.8627 5.93502H10.6929L11.5593 1.81781C13.106 2.73643 14.2939 4.19565 14.8627 5.93502Z"
+                          fill="url(#paint0_linear_652_859)"
+                        />
+                        <defs>
+                          <linearGradient
+                            x1="0.578293"
+                            y1="2.5379"
+                            x2="16.5698"
+                            y2="5.84103"
+                            gradientUnits="userSpaceOnUse"
+                          >
+                            <stop offset="0.0625" stop-color="#48CCE0" />
+                            <stop offset="0.380208" stop-color="#505ADD" />
+                            <stop offset="0.703125" stop-color="#BE40C0" />
+                            <stop offset="1" stop-color="#FBA82B" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                      <p>25&nbsp;баллов на&nbsp;Плюс</p>
+                    </div>
+                    <h3 class="top-card__title">
+                      Беспроводные наушники JBL Ultra Blu...
+                    </h3>
+                    <button class="top-card__btn btn">В&nbsp;корзину</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="show-btn">Посмотреть всё</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

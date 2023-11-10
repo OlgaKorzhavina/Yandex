@@ -1,0 +1,39 @@
+@import "common.scss";
+
+.hero {
+  padding: 0;
+  margin-bottom: 28px;
+  background-image: url("../img/hero.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__wrapper {
+    padding: 83px 85px;
+  }
+
+  &__container {
+    min-height: 461px;
+    position: relative;
+    z-index: 3;
+  }
+
+  &__title {
+    padding: 0;
+    width: 60%;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+    color: $white;
+  }
+
+  &__descr {
+    font-size: 20px;
+    color: $white;
+  }
+
+
+}
+
+
+

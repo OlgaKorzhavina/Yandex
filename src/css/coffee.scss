@@ -1,0 +1,42 @@
+@import "common.scss";
+
+.coffee {
+  margin-bottom: 80px;
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 13px;
+    column-gap: 13px;
+
+    .swiper-wrapper {
+      padding: 5px 0;
+    }
+  }
+
+  &__link {
+    max-width: 258px;
+    height: max-content;
+    padding: 20px 40px;
+    outline: 1px solid $white;
+    border-radius: 72px;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out, outline 0.3s ease-in-out;
+  }
+
+  &__link:hover {
+    background-color: $hurricane;
+    outline: none;
+  }
+
+  &__item {
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    color: $white;
+  }
+}
+
+input[type="radio"] {
+  display: none;
+}
